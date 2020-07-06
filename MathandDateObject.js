@@ -1,0 +1,15 @@
+const now = new Date()
+const date1 = new Date(2020,6,6,9,0)
+console.log(now)
+console.log(now.getDate())
+console.log(now.getFullYear())
+console.log(now.toDateString())
+console.log(now.toTimeString())
+console.log('================================')
+console.log(date1)
+console.log(date1.getDate())
+console.log(date1.getFullYear())
+console.log(date1.toDateString())
+console.log(date1.toTimeString())
+
+// Developer.mozzila.org for math and Date functons
